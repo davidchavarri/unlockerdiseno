@@ -1,0 +1,391 @@
+/* Lima 11-08-2013 */
+/* Desarrollador: David Chávarri */
+/* Proyecto: Unlockers */
+
+html,
+body,
+div,
+span,
+object,
+iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, a, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+vertical-align: baseline;
+
+}
+
+
+body{
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+background: #f0f0ed; 
+}
+
+#contendor{
+/*background-image: url(http://demo.brankic.net/zigzagwp/wp-content/themes/zigzagwp/images/pattern/bg-3.png);*/
+
+}
+
+
+#alpha{ /* Sección Alpha: Cabecera */
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+}
+
+.box{
+	margin: 0 auto;
+	width: 1240px;
+}
+
+
+/* ---------------------------- */
+
+#beta{ /* Sección Beta: Slide Show */
+	background: #FF6600;
+	width: 100%;
+	height: 300px;
+}
+
+/* ---------------------------- */
+
+#charlie{ /* Sección Charlie: Contenedor principal */
+	margin: 0 auto;
+	width: 1240px;
+	margin-top: 10px;
+}
+
+/* ---------------------------- */
+
+
+
+#delta{ /* Sección Delta: Contenedor de noticias portada */
+	width: 50%;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#delta h3{
+width: 100%;
+background: #f7f7f7;
+font-size: 14px;
+color: #33363C;
+padding: 15px 20px;
+margin: 0 0 1px 0;
+-webkit-border-top-left-radius: 8px;
+-webkit-border-top-right-radius: 8px;
+-moz-border-radius-topleft: 8px;
+-moz-border-radius-topright: 8px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#delta .listado{
+width: 100%;
+background: #fff;
+padding: 20px;
+-webkit-border-bottom-right-radius: 8px;
+-webkit-border-bottom-left-radius: 8px;
+-moz-border-radius-bottomright: 8px;
+-moz-border-radius-bottomleft: 8px;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#delta .item .cuerpo{
+	display: inline-block;
+	width: 87%;
+	padding-bottom: 5px;
+}
+
+#delta .item{
+	border-bottom: 1px dotted #ccc;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#delta .item .img{
+	display: inline-block;
+	width: 11.5%;
+	vertical-align: top;
+}
+
+#delta .item .img img{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#delta .item .titulo{
+	display: inline-block;
+	width: 81%;
+	vertical-align: top;
+}
+#delta .item .titulo a{
+	text-decoration: none;
+	color: #333;
+}
+#delta .item .fecha{
+	display: inline-block;
+	width: 100px;
+	font-size: 12px;
+	float: left;
+}
+
+#delta .item .categoria{
+	display: inline-block;
+	float: right;
+	background-color: #FF6600;
+	text-align: center;
+	padding: 3px;
+	color: #fff;
+	font-size: 12px;
+}
+
+#delta .item .social{
+	display: inline-block;
+	width: 100px;
+	float: left;
+}
+
+#delta .item .info{
+	display: inline-block;
+	width: 100%;
+	margin-top: 5px;
+}
+
+#delta .item .fecha .mesano{
+	display: inline-block;
+}
+#delta .item .fecha .dia{
+	font-size: 35px;
+	display: inline-block;
+	width: 38px;
+	border-right: 1px solid #ccc;
+	margin-right: 5px;
+	padding-right: 5px;
+	line-height: 35px;
+}
+#delta .item .fecha .mes{
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+#delta .item .fecha .ano{
+
+}
+#delta .item .cabecera{
+	display: inline-block;
+	vertical-align: top;
+}
+#delta .item .cabecera .data{
+	display: inline-block;
+	width: 18%;
+}
+
+/* ---------------------------- */
+
+#echo{ /* Sección ECHO */
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+
+#fox{
+	display: inline-block;
+	width: 47%;
+	vertical-align: top;
+	margin-right: 2%;
+}
+
+
+#fox h3{
+	width: 100%;
+	background: #f7f7f7;
+	font-size: 14px;
+	color: #33363C;
+	padding: 15px 20px;
+	margin: 0 0 1px 0;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#fox .listado{
+	width: 100%;
+	background: #fff;
+	padding: 20px;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#fox .foros .item{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+#fox .foros .item .barra{
+	display: inline-block;
+	width: 100%;
+	background: url(http://demo.brankic.net/zigzagwp/wp-content/themes/zigzagwp/images/stripes-dark.png) repeat #f4f4f4;
+	height: 8%;
+}
+
+#fox .foros .item .progreso{
+	height: 100%;
+	color: #fff;
+	padding: 5px;
+	font-size: 12px;
+}
+
+#fox .foros{
+	margin-bottom: 10px;
+}
+
+#fox .foros .img{
+
+}
+
+#fox .foros .img img{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+#fox .foros .cuerpo{
+	font-size: 12px;
+}
+
+#fox .usuarios .item .img{
+
+}
+
+#fox .usuarios .item img{
+	padding: 3px;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	box-shadow: 2px 2px 0px 0px #e0e0e0;
+}
+
+#fox .item{
+	display: inline-block;
+	width: 30%;
+	margin: 0 5px 5px 0;
+}
+
+/* ----------------------------------------- */
+
+/* VER MAS */
+
+.vermas{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.vermas a{
+	text-decoration: none;
+	color: #444
+}
+
+/* ------------------------------------- */
+
+/* ZONA GOLF */
+
+#golf{
+	width: 45%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#golf .facebook{
+	margin-bottom: 10px;
+}
+
+#golf .facebook img{
+	width: 100%
+}
+
+#golf .publicidad {
+	margin-bottom: 10px;
+}
+
+#golf .publicidad img{
+	max-width: 100%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+/* ----------------------------------------- */
+
+
+
+
+
+/* ZERO : PIE DE PÁGINA */
+
+#zero{
+	width: 100%;
+	margin-top: 10px;
+	background-color: #444;
+	height: 200px;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 959px) and (min-width: 768px) {
+	
+	#charlie{
+		width: 100%;
+	}
+
+	#delta {
+		width: 75%;
+		display: inline-block;
+		padding: 0 10px;
+		margin-right: 0px;
+	}
+
+	#echo {
+		display: inline-block;
+		width: 20%;
+		vertical-align: top;
+	}
+	#fox{
+		width: 100%;
+	}
+	
+	#golf{
+		width: 100%;
+	}	
+	
+}
+
