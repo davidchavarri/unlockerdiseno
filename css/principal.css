@@ -150,7 +150,7 @@ box-sizing: border-box;
 	float: right;
 	background-color: #FF6600;
 	text-align: center;
-	padding: 3px;
+	padding: 3px 10px;
 	color: #fff;
 	font-size: 12px;
 }
@@ -343,6 +343,293 @@ box-sizing: border-box;
 	border-radius: 4px;
 }
 /* -------------------------------------------*/
+
+
+/* SECCIÓN JULIET */
+
+#juliett{
+width: 30%;
+display: inline-block;
+margin: 20px 20px 20px 0;
+vertical-align: top;
+}
+
+#juliett .item .cuerpo{
+	display: inline-block;
+	width: 84%;
+	padding-bottom: 5px;
+}
+
+#juliett .item{
+	border-bottom: 1px dotted #ccc;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#juliett .item .img{
+	display: inline-block;
+	width: 14%;
+	vertical-align: top;
+}
+
+#juliett .item .img img{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#juliett .item .titulo{
+	display: inline-block;
+	width: 73%;
+	vertical-align: top;
+}
+#juliett .item .titulo a{
+	text-decoration: none;
+	color: #333;
+}
+#juliett .item .fecha{
+	display: inline-block;
+	width: 70px;
+	font-size: 12px;
+	float: left;
+}
+
+#juliett .item .categoria{
+	display: inline-block;
+	float: right;
+	background-color: #FF6600;
+	text-align: center;
+	padding: 3px 5px;
+	color: #fff;
+	font-size: 10px;
+}
+
+#juliett .item .social{
+	display: inline-block;
+	width: 100px;
+	float: left;
+}
+
+#juliett .item .info{
+	display: inline-block;
+	width: 100%;
+	margin-top: 5px;
+}
+
+#juliett .item .fecha .mesano{
+	display: inline-block;
+}
+#juliett .item .fecha .dia{
+	font-size: 25px;
+	display: inline-block;
+	width: 32px;
+	border-right: 1px solid #ccc;
+	margin-right: 2px;
+	line-height: 30px;
+	vertical-align: top;
+}
+#juliett .item .fecha .mes{
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+#juliett .item .fecha .ano{
+
+}
+#juliett .item .cabecera{
+	display: inline-block;
+	vertical-align: top;
+}
+#juliett .item .cabecera .data{
+	display: inline-block;
+	width: 25%;
+}
+
+
+/* FIN SECCION JULIET */
+
+/* ZONA KILO */
+
+#kilo {
+	width: 30%;
+	display: inline-block;
+	margin: 20px 20px 20px 0;
+}
+
+#kilo .descargas .item{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+#kilo .descargas .item .barra{
+	display: inline-block;
+	width: 100%;
+	background: url(http://demo.brankic.net/zigzagwp/wp-content/themes/zigzagwp/images/stripes-dark.png) repeat #f4f4f4;
+	height: 8%;
+}
+
+#kilo .descargas .item .progreso{
+	height: 100%;
+	color: #fff;
+	padding: 5px;
+	font-size: 14px;
+}
+
+#kilo .descargas{
+	margin-bottom: 10px;
+}
+
+#kilo .down{
+	color: #444;
+	font-weight: bolder;
+}
+
+/* FIN ZONA KILO*/
+
+/* ZONA LIMA */
+
+#lima {
+	width: 33%;
+	display: inline-block;
+	margin: 20px 0 20px 0;
+	vertical-align: top;
+}
+
+#lima .item{
+	margin: 0 10px 20px 0;
+	display: inline-block;
+	vertical-align: top;
+}
+/* FIN ZONA LIMA */
+
+/* ZONA MIKE */
+
+#mike{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#mike .articulos{
+	padding: 20px;
+}
+
+#mike .articulos .item{
+	width: 30%;
+	display: inline-block;
+	margin: 0 20px 20px 0;
+	vertical-align: top;
+	background-color: #ccc;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#main #mike .listado {
+	padding: 0;
+}
+
+#mike .articulos .img{
+	
+}
+#mike .articulos .img img{
+	width: 100%;
+}
+#mike .articulos .titulo{
+	padding: 5px 0px 5px 20px;
+	width: 70%;
+	display: inline-block;
+}
+
+#mike .articulos .titulo a{
+	text-decoration: none;
+	color: #444;
+}
+
+#mike .articulos .fecha{
+
+}
+#mike .articulos .cuerpo{
+	padding: 0 20px 5px 20px;
+	display: inline-block;
+}
+#mike .articulos .pie{
+	padding: 5px 0 10px 0;
+}
+#mike .articulos .bajada{
+	font-size: 12px;
+}
+#mike .articulos .tax{
+	font-size: 12px;
+	display: inline-block;
+	width: 78%;
+}
+
+#mike .articulos .tax .taxo{
+	display: inline-block;
+}
+
+#mike .articulos .tax a{
+	text-decoration: none;
+}
+
+#mike .articulos .mas{
+	font-size: 12px;
+	display: inline-block;
+	width: 20%;
+	text-align: right;
+}
+#mike .articulos .mas a{
+	text-decoration: none;
+}
+
+#mike .item .fecha {
+	display: inline-block;
+	width: 70px;
+	font-size: 12px;
+	vertical-align: top;
+	padding-top: 10px;
+}
+
+#mike .item .fecha .dia {
+	font-size: 25px;
+	display: inline-block;
+	width: 32px;
+	border-right: 1px solid #ccc;
+	margin-right: 2px;
+	line-height: 30px;
+	vertical-align: top;
+}
+
+#mike .item .fecha .mesano {
+	display: inline-block;
+}
+
+#mike .item .fecha .mes {
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+#mike .item .fecha .ano {
+
+}
+
+/* FIN ZONA MIKE */
+
+
 
 
 

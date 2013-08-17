@@ -7,17 +7,18 @@
 	/*portfolio*/
 	.fdw-background{ background-color:rgba(0,0,0,0.6);opacity:0; /*margin-top:-25px;*/ width:100%; height:100%; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;}
 	.fdw-background h4{font-size:20px; font-family: 'Dosis', sans-serif; text-align:center; padding:40px 20px 20px 20px; }
-	.fdw-background .fdw-port{ text-align:center; padding:0 40px 0; text-decoration: none;}
+	.fdw-background .fdw-port{ text-align:center; padding:0 20px 0 20px; text-decoration: none;}
 	.fdw-background .fdw-port a{ padding:8px 15px; font-size:1em; text-decoration: none;}
 	/*subtitle*/
 	.fdw-subtitle{ font-size:0.8em; margin-top:-20px; color:#0CF; }
 	.fdw-subtitle a{ color:#F90; }
 	/*columns*/
 	.c-two{ width:260px !important; height: 190px}
+	.c-tree{ width:172px !important; height: 190px}
 	/*align*/
 	.a-center{ text-align:center; }
 	/*border*/
-	.border{ border:1px solid #CCC; margin:-1px;}
+	.border{ /*border:1px solid #CCC;*/ margin:-1px;}
 	/*link buttons*/
     .fdw-port a{ 
 		background-color:#FF6600; 
