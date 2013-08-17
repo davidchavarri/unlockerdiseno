@@ -29,6 +29,11 @@ background: #f0f0ed;
 
 }
 
+#main{
+	margin: 0 auto;
+	width: 1240px;
+
+}
 
 #alpha{ /* Sección Alpha: Cabecera */
 	width: 100%;
@@ -53,8 +58,6 @@ background: #f0f0ed;
 /* ---------------------------- */
 
 #charlie{ /* Sección Charlie: Contenedor principal */
-	margin: 0 auto;
-	width: 1240px;
 	margin-top: 10px;
 }
 
@@ -68,7 +71,7 @@ background: #f0f0ed;
 	margin-right: 10px;
 }
 
-#delta h3{
+#main h3{
 width: 100%;
 background: #f7f7f7;
 font-size: 14px;
@@ -86,7 +89,7 @@ border-top-right-radius: 8px;
 box-sizing: border-box;
 }
 
-#delta .listado{
+#main .listado{
 width: 100%;
 background: #fff;
 padding: 20px;
@@ -210,40 +213,6 @@ box-sizing: border-box;
 	margin-right: 2%;
 }
 
-
-#fox h3{
-	width: 100%;
-	background: #f7f7f7;
-	font-size: 14px;
-	color: #33363C;
-	padding: 15px 20px;
-	margin: 0 0 1px 0;
-	-webkit-border-top-left-radius: 8px;
-	-webkit-border-top-right-radius: 8px;
-	-moz-border-radius-topleft: 8px;
-	-moz-border-radius-topright: 8px;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-#fox .listado{
-	width: 100%;
-	background: #fff;
-	padding: 20px;
-	-webkit-border-bottom-right-radius: 8px;
-	-webkit-border-bottom-left-radius: 8px;
-	-moz-border-radius-bottomright: 8px;
-	-moz-border-radius-bottomleft: 8px;
-	border-bottom-right-radius: 8px;
-	border-bottom-left-radius: 8px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
 #fox .foros .item{
 	display: inline-block;
 	width: 100%;
@@ -345,7 +314,35 @@ box-sizing: border-box;
 }
 /* ----------------------------------------- */
 
+/* HOTEL  SECCIÓN HOTEL */
 
+#hotel{
+	width: 97%;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+#hotel .listado{
+	display: inline-block;
+	text-align: center;
+}
+
+#hotel .item{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#hotel .item .img{
+
+}
+
+#hotel .item img{
+	max-width: 100%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+/* -------------------------------------------*/
 
 
 
@@ -357,6 +354,8 @@ box-sizing: border-box;
 	background-color: #444;
 	height: 200px;
 }
+
+
 
 
 /* RESPONSIVE */

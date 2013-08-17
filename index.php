@@ -8,6 +8,14 @@
 <link rel="stylesheet" href="css/principal.css" />
 <link rel="stylesheet" href="iconos/style.css" />
 
+<!-- Efecto páginas -->
+<link rel="stylesheet" type="text/css" href="efectos/efecto01/css/style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="efectos/efecto01/css/demo.css" media="all" />
+<link href='http://fonts.googleapis.com/css?family=Dosis:400,600' rel='stylesheet' type='text/css'>
+<script src="efectos/efecto01/js/jquery-1.8.1.min.js" async="" type="text/javascript"></script><!-- jQuery mini-->
+<script src="efectos/efecto01/js/custom.js" type="text/javascript"></script><!-- custom javascript -->
+<!-- Fin efecto páginas -->
+
 </head>
 
 <body>
@@ -27,6 +35,8 @@
 		<div class="slider"></div>
 	</aside>
 
+	<div id="main"><!-- CONTENEDOR MAIN -->
+		
 	<section id="charlie">
 		<section id="delta">
 
@@ -370,8 +380,65 @@
 			</section>
 
 		</section>
+
 	</section>
 
+	<section id="hotel">
+			
+		<h3>Páginas de la comunidad</h3>
+		<div class="listado">
+
+
+		<article class="border c-two item" style="background-image:url(img/paginas/pagina01.jpg); -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;">
+			<div style="opacity: 0;" class="fdw-background">
+				<h4><a href="#" style="color:#fff; text-decoration: none;">RNX GSM</a></h4>
+				<p class="fdw-port">
+				<a href="http://www.freshdesignweb.com">Ir a la página <span class="vg-icon">→</span></a>
+				</p>
+			</div>
+		</article>
+		<article class="border c-two item" style="background-image:url(img/paginas/pagina01.jpg); -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;">
+			<div style="opacity: 0;" class="fdw-background">
+				<h4><a href="#" style="color:#fff;  text-decoration: none;">RNX GSM</a></h4>
+				<p class="fdw-port">
+				<a href="http://www.freshdesignweb.com">Ir a la página <span class="vg-icon">→</span></a>
+				</p>
+			</div>
+		</article>
+		<article class="border c-two item" style="background-image:url(img/paginas/pagina01.jpg); -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;">
+			<div style="opacity: 0;" class="fdw-background">
+				<h4><a href="#" style="color:#fff;  text-decoration: none;">RNX GSM</a></h4>
+				<p class="fdw-port">
+				<a href="http://www.freshdesignweb.com">Ir a la página <span class="vg-icon">→</span></a>
+				</p>
+			</div>
+		</article>
+		<article class="border c-two item" style="background-image:url(img/paginas/pagina01.jpg); -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;">
+			<div style="opacity: 0;" class="fdw-background">
+				<h4><a href="#" style="color:#fff;  text-decoration: none;">RNX GSM</a></h4>
+				<p class="fdw-port">
+				<a href="http://www.freshdesignweb.com">Ir a la página <span class="vg-icon">→</span></a>
+				</p>
+			</div>
+		</article>
+
+		</div>
+
+	</section>
+
+	<section id="india">
+
+		<section id="juliett"></section>
+		<section id="kilo">
+			<section id="lima"></section>
+			<section id="mike"></section>
+		</section>
+
+
+	</section>
+
+	</div> <!-- FIN CONTENEDOR MAIN -->
+	
 	<footer id="zero">
 
 	</footer>
